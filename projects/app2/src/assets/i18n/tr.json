@@ -1,0 +1,6 @@
+{
+  "hello":"naber nasılsın?",
+  "validations":{
+    "min":"{{value}} değeri {{max}} küçük ve {{min}} değerden büyük olmalıdır"
+  }
+}

@@ -7,7 +7,7 @@
     "build": "ng build",
     "build-apps": "ng build --project=lib1 && ng build --project=app1 && ng build --project=app2",
     "serve-app1": "ng serve --project=app1 --port=4201",
-    "serve-app2": "ng serve --project=app1 --port=4202",
+    "serve-app2": "ng serve --project=app2 --port=4202",
     "watch": "ng build --watch --configuration development",
     "test": "ng test"
   },
@@ -24,6 +24,8 @@
     "@angular/platform-browser-dynamic": "^15.1.0",
     "@angular/router": "^15.1.0",
     "@neominal.solutions/lib1": "^1.0.0",
+    "@ngx-translate/core": "^14.0.0",
+    "@ngx-translate/http-loader": "^7.0.0",
     "rxjs": "~7.8.0",
     "tslib": "^2.3.0",
     "zone.js": "~0.12.0"

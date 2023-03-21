@@ -1,0 +1,6 @@
+{
+  "hello":"whats going on?",
+  "validations":{
+    "min":"{{value}} must be less than {{max}} and greater than {{min}}"
+  }
+}
