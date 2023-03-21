@@ -26,6 +26,7 @@ export class ChatComponent implements OnInit {
   // environment ortam değişkeni ile uygulamanın çıktısını değiştirmek.
 
   sendMessage() {
+    debugger;
     this.wSocketService.send(this.message);
   }
 }
