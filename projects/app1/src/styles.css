@@ -1,0 +1,8 @@
+/* You can add global styles to this file, and also import other style files */
+
+/* lib projesinden import alarak yapabiliriz yanlız development modda böyle çalışırken eğer lib projesi npm publish edilip npm i ile yüklenirse bu durumda node_modules/@package-name/styles.css buraki kodu güncellemeniz lazım. */ 
+/* @import "../../../dist/lib1/src/styles.css"; */
+
+/* @import "~@angular/material/prebuilt-themes/indigo-pink.css"; */
+/* library içerisinde export edilen stilleri uygulamamıza import ettik. */
+@import "~node_modules/@neominal.solutions/lib1/src/styles.css"
