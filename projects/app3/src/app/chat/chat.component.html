@@ -1,0 +1,15 @@
+<input [(ngModel)]="message.content" placeholder="mesajınıızı giriniz" />
+<button (click)="sendMessage()">send Message</button>
+
+
+<ul>
+  <li *ngFor="let message of messages">
+    <span>
+      Source: {{message.source}}
+    </span>
+    <br>
+    <span>
+      message: {{message.content}}
+    </span>
+  </li>
+</ul>
